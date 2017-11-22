@@ -1,0 +1,22 @@
+{
+  "name": "biberltd/symfony-validator",
+  "description": "An extend symfony extension for validate with yaml files or custom data.",
+  "authors": [
+    {
+      "name": "Tayfun Temizel",
+      "email": "tayfun.temizel@bodevoffice.com",
+      "role": "PHP Developer"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "Biberltd\\SymfonyValidator\\": "src"
+    }
+  },
+  "require": {
+    "php" : ">=5.5.9",
+    "respect/validation": "^1.1",
+    "jms/serializer": "^1.6",
+    "jms/serializer-bundle": "^1.4"
+  }
+}

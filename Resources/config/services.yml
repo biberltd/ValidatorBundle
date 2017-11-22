@@ -1,0 +1,4 @@
+services:
+    biberltd.symfony.validator:
+        class: ValidatorBundle\Service\Validator
+        arguments: ["@service_container"]

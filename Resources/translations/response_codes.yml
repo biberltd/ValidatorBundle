@@ -1,0 +1,129 @@
+"200.0000":
+  tr: "İşleminiz başarıyla tamamlanmıştır."
+  en: "Your request has been succesfully cleared."
+"301.0001":
+  tr: "Gerçekleştirmek istediğiniz işlemin artık farklı bir bağlantı noktası ile gerçekleştirilmesi gerekmektedir. Lütfen uygulama geliştiricinize sistem yöneticisi ile iletişime geçmesi için bilgi verin."
+  en: "This endpoint has been removed. Please wait for the system to redirect you to the new endpoint or contact with system administration."
+"401.0000":
+  tr: "Gerçekleştirmek istediğiniz işlem için yetkiniz bulunmamaktadır. Lütfen sistem yöneticiniz ile irtibata geçin."
+  en: "You don't have enough permission to execute this action. Please contact with your system administrator for further information."
+"401.0001":
+  tr: "Oturum süreniz doldu. Lütfen yeniden giriş yaptıktan sonra işleminizi tekrarlayın."
+  en: "Your session has been expired. Please log back in and try your action later."
+"401.0002":
+  tr: "Kullanıcı adı veya parolanız hatalı. Lütfen bilgilerinizi kontrol edip, işlemi tekrar deneyin."
+  en: "Username or password is incorrect. Please check your informations and try again."
+"401.0003":
+  tr: "Doğrulama kodunu yanlış girdiniz."
+  en: "Verification code is incorrect."
+"404.0000":
+  tr: "Hatalı bir bağlantı noktasına erişmeye çalışıyorsunuz. Lütfen dokümantasyona uygun olarak uygulamanızı düzenleyin."
+  en: "You are trying to access an inexisting endpoint. Please read the API documentation carefully, make necesary changes and retry."
+"404.0001":
+  tr: "Bu işlem bakıma alınmış ve geçici olarak erişim dışı bırakılmıştır. Lütfen işleminizi 24 saat bekledikten sonra tekrar deneyin veya sistem yöneticisi ile irtibata geçin."
+  en: "This endpoint is under maintenance. Please wait approximately 24 hours and try again later."
+"404.0002":
+  tr: "Güncellemek istediğiniz kayıt veri tabanında bulunmamaktadır veya silinmiştir."
+  en: "The record that you want to update has either been deleted or do not exist in our database."
+"404.0003":
+  tr: "Görüntülemek istediğiniz kayıt veri tabanında bulunmamaktadır veya silinmiştir."
+  en: "The record that you want to view has either been deleted or do not exist in our database."
+"404.0404":
+  tr: "Aradığınız kriterlere uygun kayıt bulunamamıştır."
+  en: "There is no record found matching your search criteria."
+"405.0000":
+  tr: "İstem metodunuz hatalıdır. Lütfen uygulama geliştiriciniz ile iletişime geçin."
+  en: "Your request method is not valid/correct. Please contact with your developer."
+"412.0000":
+  tr: "Veri kayıt numarası belirtmediniz veya belirttiğiniz veri kayıt numarası hatalı."
+  en: "You have either not provided a record ID or the record ID is not valid."
+"412.0001":
+  tr: "Boş veya veri kayıt numaralarından oluşan bir dizi değeri göndermelisiniz."
+  en: "You need to either provide an empty array or an array consists of valid record ids."
+"412.0002":
+  tr: "Eksik bilgi gönderdiniz. Tüm zorunlu alanların doldurulduğundan emin olup, işleminizi tekrar deneyin."
+  en: "You have some missing fields. Please make sure that you have filled and posted all the required fields and try your request again."
+"412.0100":
+  tr: "Tek seferde en fazla 300 kayıt görüntüleyebilirsiniz."
+  en: "You can retrive a maximum of 300 records at one request."
+"412.0101":
+  tr: "Belirttiğiniz anahtara göre sıralama yapılamıyor. Sıralama yapılabilen anahtarlar için API dokümantasyonunu inceleyiniz."
+  en: "We cannot sort based on your key. Please make sure to read the documentation for a correct list of sortable keys."
+"412.0102":
+  tr: "Hatalı bir sorgu gönderdiniz. Lütfen API dokümantasyonunu inceleyerek filtreleme için kullandığınız anahtarların ve/veya anahtar değerlerinin doğru olduğundan emin olun."
+  en: "You have made an invalid request. Please read the API documentation to learn about all available filters and corresponding values."
+"412.0103":
+  tr: "Hatalı bir durum değeri girdiniz. Lütfen doğru değerler için ilgili dokümanı inceleyiniz."
+  en: "You have provided an invalid status. Please read the documentation to see a list of available options."
+"412.0200":
+  tr: "Güncellenecek ?? alanı için hatalı değer gönderdiniz. Lütfen doğru değerler için ilgili dokümanı inceleyiniz."
+  en: "You've sent an invalid value to update ?? field. Please read the document for true values."
+"412.0201":
+  tr: "?? alanı için gönderdiğiniz bilgi ile doğrulama yapılamıyor. Lütfen doğru değerler için ilgili dokümanı inceleyiniz."
+  en: "We can't verify which you've sent for ?? field. Please read the document for true values."
+"412.0250":
+  tr: "\"AppBundle\\Entity\\SaasCore\\Country\" objesi veya ülke için geçerli bir veri tabanı kayıt numarası göndermelisiniz."
+  en: "You must send an object which is instanceof \"AppBundle\\Entity\\SaasCore\\Country\" or valid record id for country."
+"412.0251":
+  tr: "\"AppBundle\\Entity\\SaasCore\\State\" objesi veya eyalet için geçerli bir veri tabanı kayıt numarası göndermelisiniz."
+  en: "You must send an object which is instanceof \"AppBundle\\Entity\\SaasCore\\State\" or valid record id for state."
+"412.0252":
+  tr: "\"AppBundle\\Entity\\SaasCore\\City\" objesi veya şehir için geçerli bir veri tabanı kayıt numarası göndermelisiniz."
+  en: "You must send an object which is instanceof \"AppBundle\\Entity\\SaasCore\\City\" or valid record id for city."
+"412.0254":
+  tr: "\"AppBundle\\Entity\\SaasCore\\Client\" objesi veya müşteri kaydı için geçerli bir veri tabanı kayıt numarası göndermelisiniz."
+  en: ""
+"412.0300":
+  tr: "?? parametresi için hatalı bir değer gönderdiniz. Lütfen ilgili dokümantasyonu okuyarak gerekli düzenlemeleri yapın."
+  en: ""
+"412.0301":
+  tr: "\"??\" türünde bir obje göndermelisiniz. Lütfen gerekli düzenlemeleri yapıp kodunuzu tekrar test ediniz."
+  en: ""
+"412.0302":
+  tr: "Geçersiz bir hesap türü seçtiniz."
+  en: ""
+"412.0303":
+  tr: "Parola sıfırlamak için geçerli bir e-posta adresi / okul numarası veya T.C. kimlik numarası girmeniz gerekmektedir."
+  en: ""
+"412.0304":
+  tr: "?? parametresi için hatalı bir değer gönderdiniz.?? değerinden büyük olamaz."
+  en: ""
+"412.0305":
+  tr: "?? parametresi için hatalı bir değer gönderdiniz.?? değerinden küçük olamaz."
+  en: ""
+"412.0550":
+  tr: "?? türünde bir dosya gönderiyorsunuz. ?? uzantıları haricinde bir dosya gönderemezsiniz."
+  en: ""
+"412.0551":
+  tr: "Gönderdiğiniz dosyanın boyutu ?? megabayttır. En fazla ?? megabayt büyüklüğünde bir dosya gönderebilirsiniz."
+  en: ""
+"412.0552":
+  tr: "Gönderdiğiniz dosyanın ölçüleri en fazla ??x?? piksel olmalıdır."
+  en: ""
+"412.0553":
+  tr: "Gönderdiğiniz dosyanın ölçüleri en az ??x?? piksel olmalıdır."
+  en: ""
+"412.0554":
+  tr: "Gönderdiğiniz dosyanın en-boy oranının ?? olduğu belirlenmiştir. Sadece en-boy oranı ?? olan dosyalar yükleyebilirsiniz."
+  en: ""
+"412.9000":
+  tr: "Parola ve parola tekrarı birbirinden farklıdır. Lütfen ilgili kutuları tekrar doldurun."
+  en: ""
+"412.9001":
+  tr: "Parolanız güvenlik standartlarına uymamaktadır. Parola güvenlik standartları için ?? adresinden parola özelliklerini inceleyebilirsiniz."
+  en: ""
+"422.0001":
+  tr: "Benzer değerlere sahip bir kayıt veri tabanımızda yer almaktadır."
+  en: "There is already a similar record in our database."
+"423.0001":
+  tr: "Güncellemek istediğiniz kayıt, şu an başka bir kişi tarafından güncelleniyor. Lütfen bir süre bekledikten sonra işleminizi tekrar deneyin."
+  en: "The record that you like to update is locked. TIt is probably being used by someoneelse. Please wait a short while and try your request again."
+"429.0500":
+  tr: "Çok fazla hatalı giriş denemesinde bulundunuz."
+  en: ""
+"500.0000":
+  tr: "Sistemde bilinmeyen bir hata meydana geldi. Lütfen bir süre bekleyin ve işleminizi tekrar deneyin."
+  en: "Unkonwn server error occured. Please try again later."
+"598.0000":
+  tr: "Lütfen Internet bağlantınızın aktif olduğundan emin olun ve işleminizi tekrar deneyin."
+  en: "Please make sure that your Internet connection is active and try again later."
